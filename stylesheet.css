@@ -8,6 +8,8 @@ body{
 	width: 100%;
 	float: left;
 	color: #191919;
+	background-image: url("silver-shiny-background.jpg");
+	background-size: cover;
 }
 .wrapper_profile{
 	background-color: #34495e;
@@ -42,7 +44,7 @@ body{
 	text-align: center;
 	width: 100%;
 	margin-top: 5px;
-	background-color: #C0C0C0
+	background-color: rgba(192,192,192,0,7);
 }
 .detail_profil h3{
 	shape-margin: 2px;
