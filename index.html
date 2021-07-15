@@ -1,93 +1,323 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CV SIDIK</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="stylesheet" type="text/css" href="responsive.css">
-</head>
-<body>
-	<div class="profil">
-		<div class="wrapper_profil">
-			<div class="photo_name">
-				<img src="circle-cropped.png">
-				<h2 class="h1">Muhamad Sidik</h2>
-				<p><strong>Pelajar</strong></p>
-	</div>
-	<div class="detail_profil">
-		<h3>Tentang Saya</h3>
-		<p>Halo Nama saya Muhamad Sidik Lahir pada tanggal 12 Maret 2004 di Bandung.
-		<p>Teman teman biasa memanggil saya Sidik. Saya masih belajar mendalami
-		<p>ilmu pengembangan dan desain web. </p>
-		<h3>Alamat</h3>
-		<p>Kp.Cijeruk Rt.01 Rw.07 Desa.Bojongsari, Kec.Bojongsoang, Bandung, Jawa Barat</p>
-		<h3>Telp</h3>
-		<p>083821730309</p>
-		<h3>Email</h3>
-		<p>sidikmuhamad125@gmail.com</p>
-	</div>		
-	</div>
-	<div class="Hobi">
-		<h3>Hobi</h3>
-		<ul class="flex_box">
-			<li>
-				<h4>Sepak Bola</h4>
-			</li>
-			<li>
-				<h4>Membaca Manga/Komik</h4>
-			</li>
-			<li>
-				<h4>Menonton Film</h4>
-			</li>
-		</ul>
-	</div>
-	<div class="pendidikan">
-		<h3>Penddikan</h3>
-		<div class="container">
-			<div class="pen_left">
-				<h4>Sekolah Dasar</h4>
-				<p>SDN Cijeruk 1</p>
-		    </div>
-		    <div class="pen_right">
-		    	<h4>Sekolah Menengah Pertama</h4>
-		    	<p>SMPN 1 Dayeuhkolot</p>
-		    </div>
-		    <div class="pen_left">
-		    	<h4>Sekolah Menengah Kejuruan</h4>
-		    	<p>SMKN 7 Baleendah</p>
-		    </div>	
-	    </div>
-	 <div class="keahlian">
-	 	<h3>Keahlian</h3>
-	 	<p>Coding</p>
-	 	<div class="container">
-	 		<div class="skills coding">20%</div>
-	 	</div>
-	 	<p>Photoshop</p>
-	 	<div class="container">
-	 		<div class="skills photoshop">15%</div>
-	 	</div>
-	 	<p>Ms.Word</p>
-	 	<div class="container">
-	 		<div class="skills msword">20%</div>
-	 	</div>
-	 </div>
-	 <div class="footer">
-	 	<h3>Sosial Media</h3>
-	 	<h2>Muhamad Sidik</h2>
-	 	<div class="listfooter">
-	 		<ul>
-	 			<li>
-	 				<img src="Sosial Media/facebook.png">
-	 				<a href="https://web.facebook.com/fadhilcrew.fadhilcrew">Facebook</a>
-	 			</li>
-	 			<li>
-	 				<img src="Sosial Media/instagram.png">
-	 				<a href="https://www.instagram.com/sidiktzzf/">Instagram</a>
-	 			</li>
-	 		</ul>
-	 	</div>
-	 </div>   
-</body>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV Web Sidik</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="css/mdb.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="css/aos.css?ver=1.2.1" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.1" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body class="bg-light" id="top">
+    <header class="d-print-none">
+      <div class="container text-center text-lg-left">
+        <div class="pt-4 clearfix">
+          <h1 class="site-title mb-0">Muhamad Sidik</h1>
+          <div class="site-nav"> 
+            <nav role="navigation">
+              <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="#Tentang" title="Tentang Saya"><span class="menu-title">Tentang Saya</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#Keahlian" title="Keahlian"><span class="menu-title">Keahlian</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#Pengalaman" title="Pengalaman"><span class="menu-title">Pengalaman</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#Pendidikan" title="Pendidikan"><span class="menu-title">Pendidikan</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#Hobi" title="Hobi"><span class="menu-title">Hobi</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#Prestasi" title="Prestasi"><span class="menu-title">Prestasi</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#Kontak" title="Kontak"><span class="menu-title">Kontak</span></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page-content">
+      <div class="container">
+<div class="resume-container">
+  <div class="shadow-1-strong bg-white my-5" id="intro">
+    <div class="bg-info text-white">
+      <div class="cover bg-image"><img src="images/header-background.jpg"/>
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
+          <div class="text-center p-5">
+            <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="images/IMG-20210715-WA0017-removebg-preview.PNG" width="160" height="160"/></div>
+            <div class="header-bio mt-3">
+              <div data-aos="zoom-in" data-aos-delay="0">
+                <h2 class="h1">Muhamad Sidik</h2>
+                <p>Programer</p>
+              </div>
+              <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
+                <nav role="navigation">
+                  <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="https://web.facebook.com/fadhilcrew.fadhilcrew" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/sidiktzzf/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shadow-1-strong bg-white my-5 p-5" id="Tentang">
+    <div class="about-section">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="h2 fw-light mb-4">Tentang Saya</h2>
+          <p>Hallo Nama saya Muhamad Sidik Lahir pada tanggal 12 Maret 2004 Di Bandung. Saya Biasa Dipanggil Sidik. Saya adalah orang yang bergerak dibidang Pemrograman.Saya masih belajar mendalami ilmu pengembangan dan web desain. Saya anak ke-1 dari 2 bersaudara.</p>
+        </div>
+        <div class="col-md-5 offset-lg-1">
+          <div class="row mt-2">
+            <h2 class="h2 fw-light mb-4">Bio</h2>
+            <div class="col-sm-5">
+              <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Email</div>
+            </div>
+            <div class="col-sm-7">
+              <div class="pb-2">sidikmuhamad125@gmail.com</div>
+            </div>
+            <div class="col-sm-5">
+              <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> No.Telp</div>
+            </div>
+            <div class="col-sm-7">
+              <div class="pb-2">+6283-8217-30309</div>
+            </div>
+            <div class="col-sm-5">
+              <div class="pb-2 fw-bolder"><i class="fas fa-map-marker-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Alamat</div>
+            </div>
+            <div class="col-sm-7">
+              <div class="pb-2">Kp.Cijeruk Rt.01 Rw.07 Desa.Bojongsari, Kec.Bojongsoang, Bandung, Jawa Barat</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shadow-1-strong bg-white my-5 p-5" id="Keahlian">
+    <div class="skills-section">
+      <h2 class="h2 fw-light mb-4">Keahlian</h2>
+      <div class="row">
+        <div class="col-md-6">
+                    <div class="mb-3"><span class="fw-bolder">HTML</span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 20%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">20%</div>
+            </div>
+          </div>
+          <div class="mb-3"><span class="fw-bolder">CSS</span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 15%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">15%</div>
+            </div>
+          </div>
+          <div class="mb-3"><span class="fw-bolder">PHP</span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 20%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">20%</div>
+            </div>
+          </div>
+          <div class="mb-3"><span class="fw-bolder">MS Word</span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-info" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 20%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">20%</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mb-3"><span class="fw-bolder">Adobe Photoshop</span>
+            <div class="progress my-2 rounded" style="height: 20px">
+              <div class="progress-bar bg-secondary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 20%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">15%</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shadow-1-strong bg-white my-5 p-5" id="Pengalaman">
+    <div class="work-experience-section">
+      <h2 class="h2 fw-light mb-4">Pengalaman</h2>
+      <div class="timeline">
+        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">PT.INOVINDO DIGITAL MEDIA <span class="text-muted h6">Magang</span></div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">2021, Juli - September</div>
+            <div>Jl.Batusari Komplek Buana Citra Ciwastra No.C-15,Buahbatu, Kec. Bojongsoang,
+            Bandung, Jawa Barat 40287.</div>
+          </div>
+        </div>
+        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">NTMC Polri <span class="text-muted h6">Kunjin</span></div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">2019, Oktober</div>
+            <div>Mt Haryono No.Kav. 37 - 38,RT.6/RW.2, Cikoko,Kec.Pancora,Kota Jakarta Selatan,
+            Daerah Khusus Ibukota Jakarta 12780.</div>
+          </div>
+        </div>
+        <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="400">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">Karang Taruna Rw.07 <span class="text-muted h6"></span></div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">2017, Agustus</div>
+            <div>Kp.Cijeruk Rt.01 Rw.07 Desa.Bojongsari, Kec.Bojongsoang, Bandung, Jawa Barat.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shadow-1-strong bg-white my-5 p-5" id="Pendidikan">
+    <div class="education-section">
+      <h2 class="h2 fw-light mb-4">Pendidikan</h2>
+      <div class="timeline">
+        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">SMKN 7 Baleendah <span class="text-muted h6">Rekayasa Perangkat Lunak</span>          </div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">2019 - 2022</div>
+          </div>
+        </div>
+        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">SMPN 1 Dayeuhkolot <span class="text-muted h6"></span>          </div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">2016 - 2019</div>
+          </div>
+        </div>
+        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="400">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">SDN 1 Cijeruk <span class="text-muted h6"></span>          </div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">2010 - 2016</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="Hobi">
+    <div class="portfolio-section">
+      <h2 class="h2 fw-light mb-4">Hobi</h2>
+      <div class="row g-0">
+        <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid" src="images/BacaManga.jpg" width="800" height="500"/></a></div>
+        <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+          <div class="m-4 mt-md-2">
+            <h3>Membaca Manga</h3>
+            <p class="text-muted">Saya sangat suka membaca manga, karena di manga ada gambar dan percakannya sehingga saya tertarik untuk membacanya.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row g-0 portfolio-reverse">
+        <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+          <div class="m-4 mt-md-2 text-end">
+            <h3>Bermain Sepak Bola</h3>
+            <p class="text-muted">Saya suka bermain sepak bola karena sepak bola bukan hanya olahraga yang mengandalkan kemampuan individu tapi juga kerjasama tim.</p>
+          </div>
+        </div>
+        <div class="col-md-6"><img class="img-fluid" src="images/MainSepakBola.jpg" width="800" height="500"/></a></div>
+      </div>
+      <div class="row g-0">
+        <div class="col-md-6"><img class="img-fluid" src="images/MenontonFilm.jpg" width="800" height="500"/></a></div>
+        <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+          <div class="m-4 mt-md-2">
+            <h3>Menonton Film</h3>
+            <p class="text-muted">Saya sangat suka menonton film apalagi film dengan genre Action Comedy.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shadow-1-strong bg-white my-5 p-5" id="Prestasi">
+    <div class="reference-section">
+      <h2 class="h2 fw-light mb-4">Prestasi</h2>
+      <div class="row"> 
+        <div class="col-md-6">
+          <div class="d-flex mb-2">
+            <div class="header-bio m-3 mb-0">
+              <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100"></p>
+            </div>
+          </div>
+          <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
+            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Juara Futsal Tingkat Rw.07 Kp.Cijeruk Tahun 2014.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex mb-2">
+            <div class="header-bio m-3 mb-0">
+              <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0"></h3>
+            </div>
+          </div>
+          <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
+            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Mendapat Piagam Dari Kegiatan "From Habitutation To Character In Society 5.0".</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shadow-1-strong bg-white my-5 p-5" id="Kontak">
+    <div class="contant-section">
+      <h2 class="h2 fw-light text mb-4">Kontak</h2>
+      <div class="row mb-4">
+        <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+          <div class="mt-1">
+            <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> +6283-8217-30309</div>
+            <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> sidikmuhamad125@gmail.com</div>
+            <div class="h6"><i class="fas fa-map-marker-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Kp.Cijeruk Rt.01 Rw.07 Desa.Bojongsari, Kec.Bojongsoang, Bandung, Jawa Barat</div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </div>
+    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+      <div class="container">
+        <div class="my-3">
+          <div class="h4">Muhamad Sidik</div>
+          <div class="footer-nav">
+            <nav role="navigation">
+              <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="https://web.facebook.com/fadhilcrew.fadhilcrew" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/sidiktzzf/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="text-small">
+          <div class="mb-1">Dibuat Oleh Muhamad Sidik.</div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/mdb.min.js?ver=1.2.1"></script>
+    <script src="scripts/aos.js?ver=1.2.1"></script>
+    <script src="scripts/main.js?ver=1.2.1"></script>
+  </body>
 </html>
